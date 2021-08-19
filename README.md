@@ -17,6 +17,8 @@ Second Page Created is Fashion Page Following Things are included in the page:
 
 • CSS properties used: Animation on nav bar and blocks , transform
 
+Note:SCROLLBAR IS ALSO CUSTOMIZED
+
 
 https://user-images.githubusercontent.com/68473258/130044601-74ae324b-6610-41d6-bde3-9ed81c41168a.mp4
 
