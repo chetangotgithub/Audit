@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(59, 16, 52);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}
+
+.navbar {
+  width: 100px;
+  height: 100vh;
+  display: inline-block;
+  position: fixed;
+  background: linear-gradient(
+    to right,
+    rgb(206, 95, 161),
+    rgb(173, 8, 107),
+    rgb(53, 4, 33)
+  );
+}
+
+.nav-items {
+  font-size: 20px;
+  list-style: none;
+  margin-left: 20px;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  animation: sizeme 1s;
+  font-size: 30px;
+}
+@keyframes sizeme {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 30px;
+  }
+}
+li {
+  margin-top: 120px;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+.heading h1 {
+  margin: 0;
+}
+.container-1 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 200px;
+  border: 2px solid white;
+  background-image: url("/Images/watches.jpg");
+}
+.container-2 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 50px;
+  border: 2px solid white;
+  background-image: url("/Images/dress1.jpg");
+}
+.container-3 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 50px;
+  border: 2px solid white;
+  background-image: url("/Images/perfumes.jpg");
+}
+.container-4 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 200px;
+  border: 2px solid white;
+  background-image: url("/Images/suits.jpg");
+}
+.container-5 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 50px;
+  border: 2px solid white;
+  background-image: url("/Images/handbags.jpg");
+}
+.container-6 {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 50px;
+  border: 2px solid white;
+  background-image: url("/Images/dress.jpg");
+}
+.names button {
+  opacity: 0.2;
+  margin-left: 200px;
+  border: 1px solid white;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+#name-1 {
+  transform: translate(30px, -870px);
+}
+#name-4 {
+  transform: translate(30px, -450px);
+}
+#name-2 {
+  transform: translate(420px, -910px);
+}
+#name-5 {
+  transform: translate(420px, -500px);
+}
+#name-3 {
+  transform: translate(800px, -950px);
+}
+#name-6 {
+  transform: translate(800px, -540px);
+}
+.names button:hover {
+  opacity: 0.8;
+  background-color: rgb(41, 143, 88);
+  cursor: pointer;
+  font-size: 30px;
+  padding: 20px;
+  animation: buttonchange 2s;
+}
+@keyframes buttonchange {
+  from {
+    font-size: 20px;
+    padding: 10px;
+  }
+  to {
+    font-size: 30px;
+    padding: 20px;
+  }
+}

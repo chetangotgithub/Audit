@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(59, 16, 52);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}
+
+.navbar {
+  width: 100px;
+  height: 100vh;
+  display: inline-block;
+  position: fixed;
+  background: linear-gradient(
+    to right,
+    rgb(206, 95, 161),
+    rgb(173, 8, 107),
+    rgb(53, 4, 33)
+  );
+}
+
+.nav-items {
+  font-size: 20px;
+  list-style: none;
+  margin-left: 20px;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  animation: sizeme 1s;
+  font-size: 30px;
+}
+@keyframes sizeme {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 30px;
+  }
+}
+li {
+  margin-top: 120px;
+}
+.container1 {
+  display: inline-block;
+  margin: 30px;
+  margin-top: 100px;
+  padding: 20px;
+  padding-left: 100px;
+  width: 600px;
+  height: 500px;
+  font-size: 30px;
+  opacity: 1;
+  transform: translate(50px, -100px);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: changeme1 5s;
+}
+@keyframes changeme1 {
+  from {
+    opacity: 0;
+    transform: translate(0px, -100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(50px, -100px);
+  }
+}
+.container2 {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  opacity: 1;
+  transform: translate(200px, -100px);
+  background-color: rgb(50, 83, 60);
+  border: 2px solid white;
+  animation: changeme2 5s;
+}
+@keyframes changeme2 {
+  from {
+    opacity: 0;
+    transform: translate(140px, -100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(200px, -100px);
+  }
+}
+.container3 {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 500px;
+  background-image: url("/Images/Vacation1.jpg");
+  border: 2px solid white;
+  opacity: 1;
+  transform: translate(-60px, -100px);
+  animation: changeme3 5s;
+}
+@keyframes changeme3 {
+  from {
+    opacity: 0;
+    transform: translate(-100px, -100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-60px, -100px);
+  }
+}
