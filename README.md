@@ -1,3 +1,11 @@
+Task 2
+![image](https://user-images.githubusercontent.com/68473258/132084249-549122ea-2b6c-4ec4-9609-4d2325fbb8eb.png)
+
+
+
+
+
+
 # Audit
 Fashion_Story
 
