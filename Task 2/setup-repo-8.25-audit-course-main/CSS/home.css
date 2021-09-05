@@ -102,7 +102,7 @@ button:hover {
 }
 #tri2 {
   z-index: -1;
-  transform: translate(1214px, -493px) rotate(90deg);
+  transform: translate(1214px, -412px) rotate(90deg);
   filter: opacity(0.3);
   width: 100px;
 }
@@ -113,9 +113,64 @@ button:hover {
 }
 #circle1,
 #circle2 {
-  z-index: -1;
+  z-index: -2;
+  clip: rect(10, 20, 30, 10);
 }
 #circle1 {
-  width: 641px;
-  transform: translate(27px, -390px) rotate(0deg);
+  width: 331px;
+  height: 297px;
+  object-fit: cover;
+  object-position: 0%;
+  transform: translate(1275px, -390px);
+}
+#circle2 {
+  width: 331px;
+  height: 297px;
+  object-fit: cover;
+  object-position: 0%;
+  transform: translate(854px, 70px) rotate(65deg);
+}
+.ham {
+  padding: 10px;
+  padding-left: 50px;
+  margin-left: 20px;
+  width: 100px;
+}
+div h3 {
+  display: flex;
+  width: 35px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: black;
+  margin: 6px 0;
+  align-items: center;
+}
+.flex-container3 {
+  display: absolute;
+  font-family: -webkit-pictograph;
+  align-items: center;
+  font-size: 40px;
+  z-index: -3;
+  color: rgb(41, 43, 94);
+  transform: translate(590px, -150px);
+}
+.arrow {
+  box-sizing: border-box;
+  height: 2vw;
+  width: 2vw;
+  border-style: solid;
+  border-color: rgb(41, 43, 94);
+  border-width: 0px 5px 5px 0px;
+  transform: translate(248px, -90px) rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  color: rgb(41, 43, 94);
+}
+.arrow1 {
+  height: 2vw;
+  width: 1px;
+  border-radius: 10px;
+  background-color: rgb(41, 43, 94);
+  border-style: solid;
+  border-color: rgb(41, 43, 94);
+  transform: translate(261px, -127px);
 }
