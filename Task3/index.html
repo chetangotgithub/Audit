@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <p id="name2"></p>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        /><br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+        /><br />
+        <input type="checkbox" id="maths" name="maths" value="maths" />
+        <label for="maths"> Maths</label><br />
+        <input type="checkbox" id="science" name="science" value="science" />
+        <label for="science"> Science</label><br />
+        <input
+          type="checkbox"
+          id="Literature"
+          name="Literature"
+          value="Literature"
+        />
+        <label for="Literature"> Literature</label><br />
+        <label for="cars">Choose a degree:</label>
+        <select name="cars" id="degree">
+          <option value="school">School</option>
+          <option value="mtech">M.Tech</option>
+          <option value="btech">B.Tech</option>
+          <option value="phd">Phd</option>
+        </select>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn" onclick="display()">Submit</button>
+      </form>
+    </div>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
